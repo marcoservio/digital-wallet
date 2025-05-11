@@ -27,7 +27,7 @@ public class AutoMapping : Profile
         CreateMap<Transaction, ResponseTransferJson>()
             .ForMember(dest => dest.ToWallet, opt => opt.MapFrom(source => source.ToWallet!.WalletKey))
             .ForMember(dest => dest.FromWallet, opt => opt.MapFrom(source => source.FromWallet!.WalletKey))
-            .ForMember(dest => dest.Status, opt => opt.MapFrom(source => nameof(source.Status)))
+            .ForMember(dest => dest.Status, opt => opt.MapFrom(source => source.Status.ToString()))
             .ForMember(dest => dest.Date, opt => opt.MapFrom(source => source.CreatedAt));
 
         CreateMap<Wallet, ResponseBalanceJson>();
