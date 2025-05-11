@@ -4,7 +4,7 @@
 # Visual Studio (>=2015) project-specific, machine local files
 .vs/
 
-appsettings.Production.json
+#appsettings.Production.json
 
 # User-specific files
 *.suo
