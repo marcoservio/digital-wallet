@@ -86,5 +86,5 @@ dotnet format
 
 ## Contato
 
-Em caso de dúvidas, envie um email para: marcoservio22@hotmail.com
-Linkedin: [https://www.linkedin.com/in/marcoservio/](https://www.linkedin.com/in/marcoservio/)
+- Em caso de dúvidas, envie um email para: marcoservio22@hotmail.com
+- Linkedin: [https://www.linkedin.com/in/marcoservio/](https://www.linkedin.com/in/marcoservio/)
