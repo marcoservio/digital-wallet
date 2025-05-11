@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="9.0.4" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\DigitalWallet.Communication\DigitalWallet.Communication.csproj" />
+    <ProjectReference Include="..\..\Shared\DigitalWallet.Exceptions\DigitalWallet.Exceptions.csproj" />
+    <ProjectReference Include="..\DigitalWallet.Application\DigitalWallet.Application.csproj" />
+    <ProjectReference Include="..\DigitalWallet.Domain\DigitalWallet.Domain.csproj" />
+    <ProjectReference Include="..\DigitalWallet.Infrastructure\DigitalWallet.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

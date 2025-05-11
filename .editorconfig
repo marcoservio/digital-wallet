@@ -1,0 +1,47 @@
+# Top-level EditorConfig file
+root = true
+
+# Define configurações para todos os arquivos C#
+[*.cs]
+
+# Código deve usar indentação de 4 espaços
+indent_style = space
+indent_size = 4
+
+# Codificação padrão
+charset = utf-8-bom
+
+# Fim de linha
+end_of_line = crlf
+insert_final_newline = true
+
+# Suprimir regras StyleCop específicas
+dotnet_diagnostic.SA1600.severity = none
+dotnet_diagnostic.SA1633.severity = none
+dotnet_diagnostic.SA1200.severity = none
+dotnet_diagnostic.SA1010.severity = none
+dotnet_diagnostic.SA1602.severity = none
+dotnet_diagnostic.SA1309.severity = none
+dotnet_diagnostic.SA1009.severity = none
+dotnet_diagnostic.SA1101.severity = none
+dotnet_diagnostic.SA1127.severity = none
+dotnet_diagnostic.SA1503.severity = none
+dotnet_diagnostic.SA1000.severity = none
+dotnet_diagnostic.SA1601.severity = none
+dotnet_diagnostic.SA1128.severity = none
+dotnet_diagnostic.SA1118.severity = none
+dotnet_diagnostic.SA1401.severity = none
+dotnet_diagnostic.SA1202.severity = none
+dotnet_diagnostic.SA1306.severity = none
+
+dotnet_diagnostic.IDE0011.severity = none
+dotnet_diagnostic.IDE0008.severity = none
+
+# Outras sugestões (opcional):
+dotnet_sort_system_directives_first = true
+csharp_new_line_before_open_brace = all
+csharp_indent_case_contents = true
+csharp_prefer_braces = true:suggestion
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_var_elsewhere = false:suggestion
