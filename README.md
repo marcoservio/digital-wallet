@@ -55,7 +55,8 @@ Use o endpoint de login para obter um token JWT:
 
 ```http
 POST /login
-"email": "admin@gmail.com",
+
+"email": "admin@gmail.com"
 "password": "root"
 ```
 
